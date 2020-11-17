@@ -1,0 +1,13 @@
+
+
+	body.is-preload #banner:after {
+		opacity: 0.85;
+	}
+
+	body.is-preload #banner > .inner {
+
+		filter: none;
+	
+		transform: none;
+		opacity: 1;
+	}

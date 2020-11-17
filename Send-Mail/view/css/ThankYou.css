@@ -1,0 +1,56 @@
+.welcoming{
+    border-bottom: 2px solid;
+    padding-top: 150px;
+    margin: 200px;
+  }
+  .welcoming h1{
+    font-size: 20px;
+    font-family: Poppins;
+  }
+  .welcoming p{
+    font-size: 26px;
+  }
+ 
+        .page {
+          min-height: 100vh;
+          background: #2ed078;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          display: none;
+        }
+        
+       
+        .page.active {
+          display: flex;
+          animation: fadeIn 1.3s linear 1 forwards;
+        }
+
+        @keyframes fadeIn {
+          0% {
+            color:transparent;
+            transform: translate(-100%, 0) scaleY(0.02);
+          }
+          80% {
+            transform: translate(0, 0) scaleY(0.02);
+          }
+          95%{
+            color: transparent;
+          }
+        }
+ .page.active a:hover{
+         
+    text-decoration: none;
+        }
+        @media only screen and (max-width: 800px) {
+
+            .page{
+                
+                font-size:20px;
+            }
+          
+          }
+
